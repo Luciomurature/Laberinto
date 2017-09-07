@@ -10,7 +10,7 @@ typedef void (*Funcion)(unsigned x, unsigned y, int valor);
 
 class LaberintoSolver {
 private:
-    Funcion callback;
+    Funcion pintar;
     MazeGenerator *m;
     unsigned w, h;
 

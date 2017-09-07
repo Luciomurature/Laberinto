@@ -79,7 +79,7 @@ int MazeGenerator::getData(unsigned x, unsigned y) {
 }
 
 bool MazeGenerator::esVisitado(unsigned x, unsigned y) {
-    return (maze[x][y] & 0x10) != 0;
+    return (maze[x][y] & 16) != 0;
 }
 
 void MazeGenerator::visitar(unsigned x, unsigned y) {
